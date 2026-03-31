@@ -1,0 +1,37 @@
+{
+  "max_doc_rounds": 3,
+  "max_paragraph_retries": 2,
+  "max_chapter_retries": 2,
+
+  "thesis_docx": "thesis/original.docx",
+  "thesis_md": "thesis/thesis.md",
+  "output_docx": "thesis/output.docx",
+
+  "rules_dir": "rules",
+  "prompts_dir": "prompts",
+  "logs_dir": "logs",
+  "state_file": "state/progress.json",
+
+  "claude_model": "sonnet",
+  "claude_cmd": "claude",
+
+  "chapter_heading_level": 1,
+  "language": "zh-CN",
+
+  "sentence_delimiters": ["。", "！", "？", "；", ".", "!", "?", ";"],
+  "min_sentence_length": 4,
+
+  "tail_markers": ["参考文献", "致谢", "附录", "攻读学位期间", "References", "Bibliography", "Appendix", "Acknowledgement"],
+
+  "scope": {
+    "mode": "selected",
+
+    "chapters": [6],
+
+    "paragraphs": {
+      "6": "all"
+    },
+
+    "skip_final_review": true
+  }
+}

@@ -1,0 +1,23 @@
+# 论文内容（敏感）
+thesis/
+rules/
+logs/
+outputs/
+
+# 运行状态
+state/
+
+# 素材
+materials/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
